@@ -368,15 +368,8 @@ if ($_FILES['image_filename']['tmp_name']!= "" )
 			
 			 echo "done-SEPARATOR-".SERVER_ROOTPATH."edit-resume-SEPARATOR-Record added successfully.";	
 			exit;
-	
-		
-		 
-		 
-		
-		 	
 		
 	}
-	
 	
 	if($case==0)
 	{
@@ -384,9 +377,6 @@ if ($_FILES['image_filename']['tmp_name']!= "" )
 			echo $errorstr;
 			exit;
 	}
-	
-	
-
 }
 ?>
 

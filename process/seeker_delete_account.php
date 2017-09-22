@@ -38,9 +38,6 @@ if(isset($_REQUEST))
 		 	echo "done-SEPARATOR-".SERVER_ROOTPATH."-SEPARATOR-Your account not removed.";	
 			exit;
 		 }
-		
-		 	
-		
 	}
 	
 	
@@ -50,8 +47,6 @@ if(isset($_REQUEST))
 			echo $errorstr;
 			exit;
 	}
-	
-	
 
 }
 ?>

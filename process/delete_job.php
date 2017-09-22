@@ -5,9 +5,6 @@ include("../common/functions.php");
 
 if(isset($_REQUEST)) 
 {
-
-
-
 	$errorstr="";
 	$case = 1;
 	

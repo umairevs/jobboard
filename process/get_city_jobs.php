@@ -25,5 +25,4 @@ $list_state  =  jobs_city_list($state_id, $country_id);
 		}
 	}	
 ?>
-
 </select>

@@ -90,8 +90,6 @@ if(isset($_POST))
 		 // More headers
 		$headers .= 'From: <info@demo.evsoft.pk>' . "\r\n";
 	
-		
-	
 	     mail($email,stripslashes($row_email['subject']),$body,$headers);
 
 		

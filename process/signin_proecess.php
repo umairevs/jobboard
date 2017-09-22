@@ -229,10 +229,6 @@ if(isset($_POST))
 		}
 		
 	}		
-	
-	
-	
-	
 	if($case==0)
 	{
 		
