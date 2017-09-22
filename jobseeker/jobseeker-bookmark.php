@@ -143,8 +143,6 @@ include("../common/functions.php");
                         <?php
 				}
                 ?>
-                    
-                    
                     <div class="text-center">
 								<?php include("../common/paging.php"); ?>
                               

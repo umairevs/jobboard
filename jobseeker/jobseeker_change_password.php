@@ -89,11 +89,6 @@ include("../common/functions.php");
 							</fieldset>
 						</form>
  </div>             
-                        
-                        
-                        
-                        
-                        
 			
 			</div>				
 		</div><!-- container -->
