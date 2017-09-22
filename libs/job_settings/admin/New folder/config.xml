@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<TopMenu>
+		<Title>Manage Job Settings</Title>
+		<Link>home.php?p=salary_type</Link>
+	</TopMenu>
+	<LeftMenu>
+		<Menu>
+			<Title>Employment Type</Title>
+			<Link>home.php?p=salary_type</Link>
+		</Menu>
+		<Menu>
+			<Title>Experience</Title>
+			<Link>home.php?p=experience</Link>
+		</Menu>
+		<Menu>
+			<Title>Job Categories</Title>
+			<Link>home.php?p=categorylist</Link>
+		</Menu>
+		
+	</LeftMenu>
+	
+	<TopTab>
+		<Title>no</Title>
+	</TopTab>
+	
+</Config>

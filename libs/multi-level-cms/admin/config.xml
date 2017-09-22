@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<TopMenu>
+		<Title>Manage CMS Pages</Title>
+		<Link>home.php?p=articles</Link>
+	</TopMenu>
+	<LeftMenu>
+		<Menu>
+			<Title>CMS List</Title>
+			<Link>home.php?p=articles</Link>
+		</Menu>
+		
+		<Menu>
+			<!--<Title>Add CMS Page</Title>
+			<Link>home.php?p=addarticles</Link>-->
+		</Menu>
+	</LeftMenu>
+	
+	<TopTab>
+		<Title>no</Title>
+	</TopTab>
+	
+</Config>

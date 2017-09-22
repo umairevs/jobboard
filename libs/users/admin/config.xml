@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<TopMenu>
+		<Title>Manage Members</Title>
+		<Link>home.php?p=members</Link>
+	</TopMenu>
+	<LeftMenu>
+		<Menu>
+			<Title>Manage Jobseekers</Title>
+			<Link>home.php?p=members</Link>
+		</Menu>
+		<Menu>
+			<Title>Manage Employers</Title>
+			<Link>home.php?p=employers</Link>
+		</Menu>
+	</LeftMenu>
+	<TopTab>
+		<Title>yes</Title>
+	</TopTab>
+</Config>

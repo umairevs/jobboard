@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<TopMenu>
+		<Title>Location Management</Title>
+		<Link>home.php?p=countrylist</Link>
+	</TopMenu>
+	<LeftMenu>
+		<Menu>
+			<Title>Country List</Title>
+			<Link>home.php?p=countrylist</Link>
+		</Menu>
+		<Menu>
+			<Title>States List</Title>
+			<Link>home.php?p=statelist</Link>
+		</Menu>
+		<Menu>
+			<Title>Cities List</Title>
+			<Link>home.php?p=citylist</Link>
+		</Menu>
+		
+	</LeftMenu>
+	
+	<TopTab>
+		<Title>no</Title>
+	</TopTab>
+	
+</Config>
