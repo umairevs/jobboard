@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<TopMenu>
+		<Title>Manage Jobs</Title>
+		<Link>home.php?p=joblist</Link>
+	</TopMenu>
+	<LeftMenu>
+		<Menu>
+			<Title>Jobs List</Title>
+			<Link>home.php?p=joblist</Link>
+		</Menu>
+		
+		<Menu>
+			<Title>Applied Jobs list</Title>
+			<Link>home.php?p=apply_jobs_list</Link>
+		</Menu>
+		
+		
+	</LeftMenu>
+	
+	<TopTab>
+		<Title>yes</Title>
+	</TopTab>
+	
+</Config>

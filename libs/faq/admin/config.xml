@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<TopMenu>
+		<Title>Manage FAQ</Title>
+		<Link>home.php?p=faqlist</Link>
+	</TopMenu>
+	<LeftMenu>
+		<Menu>
+			<Title>FAQ List</Title>
+			<Link>home.php?p=faqlist</Link>
+		</Menu>
+		<Menu>
+			<Title>Add New Question</Title>
+			<Link>home.php?p=newfaq</Link>
+		</Menu>
+<!--		<Menu>
+			<Title>FAQ Group List</Title>
+			<Link>home.php?p=faqgrouplist</Link>
+		</Menu>
+		<Menu>
+			<Title> Add New Group </Title>
+			<Link>home.php?p=newfaqgroup</Link>
+		</Menu>
+	-->	
+	</LeftMenu>
+	
+	<TopTab>
+		<Title>yes</Title>
+	</TopTab>
+	
+</Config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<TopMenu>
+		<Title>Manage E-mails</Title>
+		<Link>home.php?p=emailsalert</Link>
+	</TopMenu>
+	<LeftMenu>
+		<Menu>
+			<Title>E-mails</Title>
+			<Link>home.php?p=emailsalert</Link>
+		</Menu>
+		<Menu>
+		</Menu>
+	</LeftMenu>
+	<TopTab>
+		<Title>no</Title>
+	</TopTab>
+</Config>
