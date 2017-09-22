@@ -86,10 +86,7 @@ include("common/functions.php");
                                        </div>
                                 </div>
                                 
-                                
                                </div>
-                               
-                               
                                
                              	<div class="clear_screen"></div>
                                 <div class="buttons pull-right">

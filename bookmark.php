@@ -11,7 +11,7 @@ include("common/functions.php");
     <meta name="author" content="Theme Region">
    	<meta name="description" content="">
 
-    <title>Jobs | Job Portal / Job Board HTML Template</title>
+    <title>Jobs | Job Portal </title>
  	<?php include("common/top_script.php");?>   
   </head>
   <body>

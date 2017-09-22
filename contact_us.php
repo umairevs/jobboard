@@ -66,7 +66,7 @@ include("common/functions.php");
                             	<textarea class="form-control" placeholder="Message" rows="8" name="message" id="message"></textarea>
                              </div>   
                             
-                            <input type="submit" name="submitb" value="Submit" class="btn" onclick="return validate_add(12);">
+                            <input type="submit" name="submitb" value="Submit" class="btn" onClick="return validate_add(12);">
                            <div id="preloader_div"></div>
                            
                             
@@ -79,9 +79,6 @@ include("common/functions.php");
 		</div><!-- container -->
 	</section><!-- conainer -->
 	</div><!-- page -->
-	
-	<!-- download -->
-	<!-- download -->
 	
 	<?php include("common/footer.php");?>   
   </body>

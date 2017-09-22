@@ -19,9 +19,6 @@ include("common/functions.php");
 		<?php include("common/header.php");?>   	
     <!-- header -->
 
-	
-	<!-- banner-section -->
-
 	<section class="clearfix job-bg user-page">
 		<div class="container">
 			<div class="row text-center">

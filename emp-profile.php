@@ -104,8 +104,6 @@ include("common/functions.php");
                           
                         </div>
                     
-					<!-- preferences-settings -->
-					<!-- preferences-settings -->
 				</div><!-- user-pro-edit -->
 			</div>				
 		</div><!-- container -->
@@ -143,7 +141,6 @@ $(document).ready(function() {
 });
 
 </script>
-
 
   </body>
 </html>

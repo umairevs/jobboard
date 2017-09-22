@@ -1,4 +1,3 @@
-
 <?php
 include("common/top.php");
 include("common/functions.php");

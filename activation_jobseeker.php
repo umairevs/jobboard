@@ -2,14 +2,10 @@
 include("common/top.php");
 include("common/functions.php");
 
-
-
 $user_id 	= base64_decode($_REQUEST['user_id']);
 $verify_code	= $_REQUEST['code'];
 
 $show_seeker_info	=	get_seeker_by_id($user_id);
-
-
 if(isset($show_seeker_info))
 {
 	

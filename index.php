@@ -1,7 +1,4 @@
-  
-
 <?php
-
 include("common/top.php");
 include("common/functions.php");
 ?>
@@ -19,17 +16,10 @@ include("common/functions.php");
  	<?php include("common/top_script.php");?>   
   </head>
   <body>
-  
- 
-  
 	<!-- header -->
 		<?php include("common/header.php");?>   	
         
     <!-- header -->
-<?php 
-
-
-?>
 	<?php include("common/main_banner.php");?>   
 	<!-- banner-section -->
 
@@ -71,12 +61,7 @@ include("common/functions.php");
 
 			<div class="section latest-jobs-ads">
 				<div class="section-title tab-manu">
-					<h4>Latest Jobs</h4>
-					 <!-- Nav tabs -->      
-					<!-- <ul class="nav nav-tabs" role="tablist">
-
-						<li role="presentation" class="active"><a href="#popular-jobs" data-toggle="tab">Recent Jobs</a></li>
-					</ul> -->
+					<h4>Latest Jobs</h4>					
 				</div>
 
 				<div class="tab-content">
@@ -206,48 +191,7 @@ include("common/functions.php");
 					</div>
 				</div>
 			</div><!-- workshop-traning -->
-			<?php $resources = get_resources();	/*?>
-            
-			<div class="section cta cta-two text-center">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="single-cta">
-							<div class="cta-icon icon-jobs">
-								<img src="<?php echo SERVER_ROOTPATH;?>images/icon/31.png" alt="Icon" class="img-responsive">
-							</div><!-- cta-icon -->
-							<h3><?php echo numberformat($resources[0]);?></h3>
-							<h4>Live Jobs</h4>
-							<p style="display:none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-						</div>
-					</div><!-- single-cta -->
-
-					<div class="col-sm-4">
-						<div class="single-cta">
-							<!-- cta-icon -->
-							<div class="cta-icon icon-company">
-								<img src="<?php echo SERVER_ROOTPATH;?>images/icon/32.png" alt="Icon" class="img-responsive">
-							</div><!-- cta-icon -->
-							<h3><?php echo numberformat($resources[1]);?></h3>
-							<h4>Total Employers</h4>
-							<p style="display:none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-						</div>
-					</div><!-- single-cta -->
-
-					<div class="col-sm-4">
-						<div class="single-cta">
-							<div class="cta-icon icon-candidate">
-								<img src="<?php echo SERVER_ROOTPATH;?>images/icon/33.png" alt="Icon" class="img-responsive">
-							</div><!-- cta-icon -->
-							<h3><?php echo numberformat($resources[2]);?></h3>
-							<h4>Total Candidate</h4>
-							<p style="display:none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-						</div>
-					</div><!-- single-cta -->
-				</div><!-- row -->
-			</div><!-- cta -->	
-            <?php
-			*/
-			?>		
+			<?php $resources = get_resources();	?>		
 
 		</div><!-- conainer -->
 	</div><!-- page -->
@@ -311,9 +255,6 @@ include("common/functions.php");
 			</div><!-- row -->
 		</div><!-- contaioner -->
 	</section><!-- something-sell -->
-	
-	
-	
 	<?php include("common/footer.php");?>  
 
 

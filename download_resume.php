@@ -217,8 +217,6 @@ $namess =  str_replace(" ","-",$full_name."-CV");
      
      </td></tr>
      
-     
-     
      </table>           
     <?php
     echo "</body>";

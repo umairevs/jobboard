@@ -54,8 +54,6 @@ if(isset($_REQUEST['calling']) && !empty($_REQUEST['calling']) && $_REQUEST['cal
 		case '12': 
 			include("process/contactus_proecess.php");			
 		break;	
-		
-		
 	}	
 		
 }

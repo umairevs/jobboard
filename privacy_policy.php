@@ -19,8 +19,6 @@ $cms = get_cms(2);
 	<!-- header -->
 		<?php include("common/header.php");?>   	
     <!-- header -->
-
-	
 	<!-- banner-section -->
 
 	<div class="opage">
@@ -51,9 +49,6 @@ $cms = get_cms(2);
 		</div><!-- container -->
 	</section><!-- conainer -->
 	</div><!-- page -->
-	
-	<!-- download -->
-	<!-- download -->
 	
 	<?php include("common/footer.php");?>   
   </body>

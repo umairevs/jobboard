@@ -87,11 +87,6 @@ include("common/functions.php");
 						</form>
  </div>             
                         
-                        
-                        
-                        
-                        
-			
 			</div>				
 		</div><!-- container -->
 	</section>

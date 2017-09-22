@@ -1,9 +1,6 @@
 <?php
-
 include("common/top.php");
 include("common/functions.php");
-
- 
 
 $where_query = '';
 $cat_query = ''; 
@@ -18,9 +15,6 @@ if($_REQUEST['sub_cat']!='')
 	$_SESSION['search']['job_subcategory']	=	base64_decode($_REQUEST['sub_cat']);
 	$cat_query	.=	" AND j.job_subcategory = '".base64_decode($_REQUEST['sub_cat'])."'";	
 }
-
-
-
 
 if($_REQUEST['submit_search'])
 {
@@ -670,14 +664,7 @@ $targetpage = SERVER_ROOTPATH."job-list"; 	//your file name  (the name of this f
 							<div class="featured-top">
 								<h4>Showing <?php if($sizeof_array==0){ echo "0";} else { if($page==''){echo "1";} else { echo (($page-1)*$limit) + 1;}}?>-<?php   if($page==''){echo "1";} else { $total_page =  $page * $limit; if($total_page>=$sizeof_array){ echo $sizeof_array;} else { echo $total_page;}}?> of <?php echo $sizeof_array;?> ads</h4>
 								<div class="dropdown pull-right">
-									<!--<div class="dropdown category-dropdown">
-										<h5>Sort by:</h5>						
-										<a data-toggle="dropdown" href="#"><span class="change-text">Most Relevant</span><i class="fa fa-caret-square-o-down"></i></a>
-										<ul class="dropdown-menu category-change">
-											<li><a href="#">Most Relevant</a></li>
-											<li><a href="#">Most Popular</a></li>
-										</ul>								
-									</div>--><!-- category-change -->		
+								
 								</div>							
 							</div><!-- featured-top -->	
 
@@ -766,47 +753,20 @@ try widening your search.</div>
 							<!-- pagination  -->
 							<div class="text-center">
 								<?php include("common/paging.php"); ?>
-                                <!--<ul class="pagination ">
-									<li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
-									<li><a href="#">1</a></li>
-									<li class="active"><a href="#">2</a></li>
-									<li><a href="#">3</a></li>
-									<li><a href="#">4</a></li>
-									<li><a href="#">5</a></li>
-									<li><a>...</a></li>
-									<li><a href="#">10</a></li>
-									<li><a href="#">20</a></li>
-									<li><a href="#">30</a></li>
-									<li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
-								</ul>-->
+                               
 							</div>
                             <!-- pagination  -->	
                             
-                            
-							<!--<div class="ad-section text-center">
-								<a href="#"><img src="images/ads/3.jpg" alt="Image" class="img-responsive"></a>
-							</div>--><!-- ad-section -->							
 				
 						</div>
 					</div><!-- recommended-ads -->
 
-				<!--	<div class="col-md-2 hidden-xs hidden-sm">
-						<div class="advertisement text-center">
-							<a href="#"><img src="images/ads/1.jpg" alt="" class="img-responsive"></a>
-						</div>
-					</div>-->
 				</div>	
 			</div>
 		</div><!-- container -->
 	</section><!-- main -->
 	
-	
-	
-	
 	<!-- ad-profile-page -->
-
-	
-	
 	<?php include("common/footer.php");?>   
   </body>
 </html>

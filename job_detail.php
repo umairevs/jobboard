@@ -389,12 +389,7 @@ else
 		</div><!-- contaioner -->
 	</section><!-- something-sell -->
 	
-
-	
-	
 	<?php include("common/footer.php");?>   
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-536326df13c83e5f"></script>
 
 

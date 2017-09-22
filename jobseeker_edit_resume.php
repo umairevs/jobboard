@@ -1,5 +1,4 @@
 <?php
-
 include("../common/top.php");
 include("../common/security_seeker_login.php");
 include("../common/functions.php");
@@ -628,12 +627,6 @@ $(document).ready(function() {
     })
 	
 });
-
-
-
 </script>
-
-
-
   </body>
 </html>

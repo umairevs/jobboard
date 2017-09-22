@@ -156,9 +156,6 @@ include("common/functions.php");
 				
 			</div>   
             
-            
-            
-            
 			</div>				
 		</div><!-- container -->
 	</section>
@@ -168,11 +165,7 @@ include("common/functions.php");
 
 function remove_area(val)
 {
-	 
-	
 	 $(".showdiv_2").remove();
-	
-	 
 }
 
 $(document).ready(function() {

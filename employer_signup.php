@@ -29,11 +29,6 @@ include("common/functions.php");
 				<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
 					<div class="user-account job-user-account" id="jobseeker_register">
 						<h2>Create Employer Account</h2>
-							<!--<ul class="nav nav-tabs text-center" role="tablist">
-								<li role="presentation" class="active"><a href="#find-job" aria-controls="find-job" role="tab" data-toggle="tab">Find A Job</a></li>
-								<li role="presentation"><a href="#post-job" aria-controls="post-job" role="tab" data-toggle="tab">Post A Job</a></li>
-							</ul>
--->
 							<div class="tab-content">
 								<div role="tabpanel" class="tab-pane active" id="find-job">
 									 <form name="signup_form" id="signup_form" action="" method="post" enctype="multipart/form-data"> 
@@ -70,7 +65,7 @@ include("common/functions.php");
 									 <p id="display_success_message"></p>
 								</div>
 								
-							</div>				
+							</div>				 
 					</div>
 				</div><!-- user-login -->			
 			</div><!-- row -->	

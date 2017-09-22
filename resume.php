@@ -288,9 +288,6 @@ if($_SESSION['jobseeker']['id'])
 			</div><!-- resume-content -->						
 		</div><!-- container -->
 	</section><!-- ad-profile-page -->
-
-	
-	
 	<?php include("common/footer.php");?>   
   </body>
 </html>

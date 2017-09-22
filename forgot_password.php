@@ -39,12 +39,7 @@ include("common/functions.php");
                             
                             <div class="form-group">
 								<input type="email" class="form-control" placeholder="Email" required>
-							</div>
-						    
-                           
-                            
-                            
-                            
+							</div> 
 							<button type="submit" href="#" class="btn">Submit</button>
                             <div id="employer_signin" style="display:none;"><h5><span>OR</span></h5>
                             <img src="images/linkedin-login.png" height="39">

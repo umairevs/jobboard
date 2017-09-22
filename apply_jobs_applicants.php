@@ -10,9 +10,7 @@ if($_REQUEST['job_id']!='')
 	{
 		header("location:".SERVER_ROOTPATH."emp-jobs-list");
 		exit;
-	}
-		
-	
+	}	
 }
 else
 {
@@ -50,9 +48,6 @@ else
 			
 			<?php include("common/profile_area.php"); ?>   
            
-                                    	
-
-			
             <div class="section trending-ads latest-jobs-ads">
             
 				<h4>Apply Applicants List </h4>
@@ -169,13 +164,7 @@ else
 								<?php include("../common/paging.php"); ?>
                               
 							</div>
-
-				
 			</div>   
-            
-            
-            
-            
 			</div>				
 		</div><!-- container -->
 	</section>

@@ -20,9 +20,6 @@ include("common/functions.php");
 		<?php include("common/header.php");?>   	
     <!-- header -->
 
-	
-	<!-- banner-section -->
-
 	<div class="opage">
 		<section class=" job-bg page  ad-profile-page" style="background:#CCCCCC;">
 		<div class="container">
@@ -50,11 +47,6 @@ include("common/functions.php");
 			        </div> 
                     	</div>                
                     <?php }  ?>         
-                    
-                          
-			
-                							
-			
 			</div><!-- resume-content -->						
 		</div><!-- container -->
 	</section><!-- conainer -->
