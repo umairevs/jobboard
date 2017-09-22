@@ -1,6 +1,6 @@
 <?php
 	define("ACSQL_DB_USER", "");
-	define("ACSQL_DB_PASSWORD", "{O");
+	define("ACSQL_DB_PASSWORD", "");
 	define("ACSQL_DB_NAME", "");
 	define("ACSQL_DB_HOST", "localhost");
 

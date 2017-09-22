@@ -1,5 +1,4 @@
 <?php
-
 	$tbl_name="";		//your table name
 	// How many adjacent pages should be shown on each side?
 	$adjacents = 2;

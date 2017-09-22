@@ -1,16 +1,5 @@
 <?php
 include("common/top.php");
-
-
-/*
-    $host = 'localhost';
-$username = 'evsof3_evs';
-$pass = 'evs@2o11';
-$Dbname = 'jobboard';
-//connect with the database
-$db = new mysqli($host,$username,$pass,$Dbname);   */
-//get search term
-
 $searchTerm = $_GET['term'];
 
 $query = "SELECT * FROM tbl_jobs WHERE job_title LIKE '%".$searchTerm."%'";

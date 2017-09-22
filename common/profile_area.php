@@ -1,6 +1,5 @@
 <?php
 $emp_info = get_user_by_employer($_SESSION['employer']['email']);
-
 ?>
 <div class="job-profile section">	
 				<div class="user-profile">

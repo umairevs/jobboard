@@ -160,4 +160,4 @@ Author URI: http://www.mis-algoritmos.com
 		$pagination.= "</div>\n";		
 	}
 ?>
-<?php echo $pagination;?>
+<?php echo $pagination;?> 

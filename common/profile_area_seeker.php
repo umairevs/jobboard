@@ -1,6 +1,5 @@
 <?php
 $seeker_info = get_user_by_email($_SESSION['jobseeker']['email']);
-
 ?>
 <div class="job-profile section">	
 				<div class="user-profile">

@@ -412,7 +412,7 @@ function _build_attachement()
 	
 	$ata= array();
 	$k=0;
-	
+	 
 	// for each attached file, do...
 	for( $i=0; $i < count( $this->aattach); $i++ ) {
 		
