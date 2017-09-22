@@ -15,11 +15,6 @@ if(isset($_GET['slots_availble']) && (trim($_GET['pid'])!='')  )
 					//	$updateqry = @mysql_query($qry);
 		$qry = "delete from tbl_slotsrequested	where concert_id=".$_GET['concert_id']." and slot_id =  '".$_GET['old_slot']."' and artist_id =  '".$_GET['artist_id']."'";
 						//$updateqry = @mysql_query($qry);
-		
-		
-		
-		
-				
 		die();
 	header('location:home.php?p=concert_pending&mod=organizer&concert_id='.$_GET['concert_id']);exit;
 
